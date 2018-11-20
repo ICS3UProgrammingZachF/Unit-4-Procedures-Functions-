@@ -1,0 +1,10 @@
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Franks, Zachary (s436432)\Unit 4 (Procedures & Functions)\convert\convert\bin\Debug\convert.exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Franks, Zachary (s436432)\Unit 4 (Procedures & Functions)\convert\convert\bin\Debug\convert.exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Franks, Zachary (s436432)\Unit 4 (Procedures & Functions)\convert\convert\bin\Debug\convert.pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Franks, Zachary (s436432)\Unit 4 (Procedures & Functions)\convert\convert\obj\Debug\convert.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Franks, Zachary (s436432)\Unit 4 (Procedures & Functions)\convert\convert\obj\Debug\convert.bigoofs.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Franks, Zachary (s436432)\Unit 4 (Procedures & Functions)\convert\convert\obj\Debug\convert.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Franks, Zachary (s436432)\Unit 4 (Procedures & Functions)\convert\convert\obj\Debug\convert.csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Franks, Zachary (s436432)\Unit 4 (Procedures & Functions)\convert\convert\obj\Debug\convert.csproj.CoreCompileInputs.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Franks, Zachary (s436432)\Unit 4 (Procedures & Functions)\convert\convert\obj\Debug\convert.exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Franks, Zachary (s436432)\Unit 4 (Procedures & Functions)\convert\convert\obj\Debug\convert.pdb
