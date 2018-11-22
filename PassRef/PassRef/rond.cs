@@ -16,5 +16,10 @@ namespace PassRef
         {
             InitializeComponent();
         }
+
+        private void rond_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

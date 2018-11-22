@@ -50,6 +50,7 @@
             this.rond.TabIndex = 1;
             this.rond.Text = "rond";
             this.rond.UseVisualStyleBackColor = true;
+            this.rond.Click += new System.EventHandler(this.rond_Click);
             // 
             // label1
             // 
