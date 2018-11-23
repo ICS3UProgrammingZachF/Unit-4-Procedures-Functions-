@@ -16,30 +16,46 @@ namespace convert
       
         private SoundPlayer _soundPlayer;
 
-
         public bigoofs()
         {
             InitializeComponent();
            
+            //playes music
              _soundPlayer = new SoundPlayer("Casual - NgelRodzTV Music.wav");
             _soundPlayer.Play();
+
+            //hides lable
+            lbl.Hide();
         }
 
-        public void TempConverter(double celsius)
+        public double TempConverter(double celsius)
         {
             //decaler vierubles
-            double fahrenheit = 0;
+            Double fahrenheit = 0;
+
             //convert the cesius to fahrenhig
             fahrenheit = celsius * (9) / (double)(5) + 32;
+
+            //return function
+            return fahrenheit;
         }
 
         private void btncovernt_Click(object sender, EventArgs e)
         {
-            double usercelsius = 0;
+            //local veriubles
+            double usercelsius;
 
-            this.TempConverter(usercelsius);
+            //convers form a string to a double
+            usercelsius = double.Parse(txt.Text);
 
+            //calls the functoin
+            usercelsius = TempConverter(usercelsius);
 
+            //convers it back to a string
+            lbl.Text = string.Format("{0:0.00}", usercelsius) + " f";
+
+            //shows lables
+            lbl.Show();
         }
     }
 }

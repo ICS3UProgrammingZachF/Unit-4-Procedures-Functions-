@@ -29,12 +29,13 @@
         private void InitializeComponent()
         {
             this.btncovernt = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt = new System.Windows.Forms.TextBox();
+            this.lbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btncovernt
             // 
-            this.btncovernt.Location = new System.Drawing.Point(263, 253);
+            this.btncovernt.Location = new System.Drawing.Point(86, 176);
             this.btncovernt.Name = "btncovernt";
             this.btncovernt.Size = new System.Drawing.Size(75, 23);
             this.btncovernt.TabIndex = 0;
@@ -42,22 +43,32 @@
             this.btncovernt.UseVisualStyleBackColor = true;
             this.btncovernt.Click += new System.EventHandler(this.btncovernt_Click);
             // 
-            // textBox1
+            // txt
             // 
-            this.textBox1.Location = new System.Drawing.Point(254, 82);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.txt.Location = new System.Drawing.Point(74, 56);
+            this.txt.Name = "txt";
+            this.txt.Size = new System.Drawing.Size(100, 20);
+            this.txt.TabIndex = 1;
+            // 
+            // lbl
+            // 
+            this.lbl.AutoSize = true;
+            this.lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl.Location = new System.Drawing.Point(97, 116);
+            this.lbl.Name = "lbl";
+            this.lbl.Size = new System.Drawing.Size(51, 20);
+            this.lbl.TabIndex = 2;
+            this.lbl.Text = "label1";
             // 
             // bigoofs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(678, 474);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(248, 236);
+            this.Controls.Add(this.lbl);
+            this.Controls.Add(this.txt);
             this.Controls.Add(this.btncovernt);
             this.Name = "bigoofs";
-            this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -66,7 +77,8 @@
         #endregion
 
         private System.Windows.Forms.Button btncovernt;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt;
+        private System.Windows.Forms.Label lbl;
     }
 }
 
